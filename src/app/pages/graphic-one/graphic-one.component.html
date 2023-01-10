@@ -1,1 +1,28 @@
-<p>graphic-one works!</p>
+<div class="row">
+  <div class="col-6">
+    <app-donut title="Monday" [labels]="labelsOne" [data]="dataOne"></app-donut>
+  </div>
+  <div class="col-6">
+    <app-donut
+      title="Tuesday"
+      [labels]="labelsTwo"
+      [data]="dataTwo"
+    ></app-donut>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <app-donut
+      title="Wednesday"
+      [labels]="labelsThree"
+      [data]="dataThree"
+    ></app-donut>
+  </div>
+  <div class="col-6">
+    <app-donut
+      title="Thursday"
+      [labels]="labelsFour"
+      [data]="dataFour"
+    ></app-donut>
+  </div>
+</div>
